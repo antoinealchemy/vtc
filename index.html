@@ -465,34 +465,35 @@
         </section>
     </main>
 
-    <footer class="bg-slate-900 text-slate-300 py-12">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid md:grid-cols-3 gap-8 mb-8">
-                <div>
-                    <div class="text-2xl font-extrabold text-white mb-4">VTC Indépendant</div>
-                    <p class="text-sm">Votre partenaire pour un site VTC professionnel en Île-de-France.</p>
-                </div>
-                
-                <div>
-                    <h3 class="font-bold text-white mb-4">Liens rapides</h3>
-                    <ul class="space-y-2 text-sm">
-                        <li><a href="#aid" class="hover:text-emerald-400 transition">Financement</a></li>
-                        <li><a href="#faq" class="hover:text-emerald-400 transition">FAQ</a></li>
-                        <li><a href="https://calendly.com/vtc-independant/votre-site-vtc" target="_blank" onclick="fbq('trackCustom', 'CalendlyClick');" class="hover:text-emerald-400 transition">Réserver</a></li>
-                    </ul>
-                </div>
-                
-                <div>
-                    <h3 class="font-bold text-white mb-4">Mentions importantes</h3>
-                    <p class="text-sm">L'aide régionale est attribuée par la Région Île-de-France, sous réserve d'éligibilité et d'acceptation du dossier. Les informations de cette page sont indicatives et ne constituent pas un engagement d'obtention d'aide.</p>
-                </div>
+<footer class="bg-slate-900 text-slate-300 py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-3 gap-8 mb-8">
+            <div>
+                <img src="logo.png" alt="VTC Indépendant" class="h-16 mb-4">
+                <p class="text-sm">Votre partenaire pour un site VTC professionnel en Île-de-France.</p>
             </div>
             
-            <div class="border-t border-slate-800 pt-8 text-center text-sm">
-                <p>&copy; <span id="current-year"></span> VTC-Indépendant. Tous droits réservés.</p>
+            <div>
+                <h3 class="font-bold text-white mb-4">Liens rapides</h3>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="#benefits" class="hover:text-emerald-400 transition">Pourquoi un site</a></li>
+                    <li><a href="#aid" class="hover:text-emerald-400 transition">Financement</a></li>
+                    <li><a href="#faq" class="hover:text-emerald-400 transition">Vos questions</a></li>
+                </ul>
+            </div>
+            
+            <div>
+                <h3 class="font-bold text-white mb-4">Mentions importantes</h3>
+                <p class="text-sm">L'aide régionale est attribuée par la Région Île-de-France, sous réserve d'éligibilité et d'acceptation du dossier. Les informations de cette page sont indicatives et ne constituent pas un engagement d'obtention d'aide.</p>
             </div>
         </div>
-    </footer>
+        
+        <div class="border-t border-slate-800 pt-8 text-center text-sm space-y-2">
+            <p>&copy; <span id="current-year"></span> VTC-Indépendant. Tous droits réservés.</p>
+            <p class="text-slate-400 text-xs">Ce site n'est pas affilié à Facebook. Facebook est une marque déposée de Meta Platforms, Inc.</p>
+        </div>
+    </div>
+</footer>
 
     <script>
         document.getElementById('current-year').textContent = new Date().getFullYear();
